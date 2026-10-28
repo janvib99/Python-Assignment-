@@ -1,0 +1,7 @@
+# 13. Zero or Non-zero
+
+n = int(input("Enter a number: "))
+if n == 0:
+    print("Zero")
+else:
+    print("Non-zero")

@@ -1,0 +1,13 @@
+# 17. Grade Based on Marks
+
+marks = int(input("Enter marks (0-100): "))
+if not 0 <= marks <= 100:
+    print("Invalid marks")
+elif marks >= 80:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+elif marks >= 40:
+    print("Grade C")
+else:
+    print("Fail")
